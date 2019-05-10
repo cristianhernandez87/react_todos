@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+  &-logo {
+    animation: App-logo-spin infinite 20s linear;
+    pointer-events: none;
+    width: 5rem;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+// text
+
+.text {
+  font-family: 'Montserrat', sans-serif;
+  &.text {
+    &--color {
+      &--white { color: white;}
+    }
+  }
+}

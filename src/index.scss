@@ -1,0 +1,17 @@
+// colors
+
+$color_1:     #333;
+$color_2:     #ddd;
+
+// fonts
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700');
+
+
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: $color_1;
+  color: $color_2;
+}
